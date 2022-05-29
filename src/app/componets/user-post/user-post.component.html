@@ -1,0 +1,12 @@
+<div class="user-post">
+  <h2>{{post.title}}</h2>
+  <p>{{post.body}}</p>
+
+  <button class="post-button" (click)="getComments()">show/hide comments</button>
+
+  <div *ngIf="isShowComments">
+    <app-post-comments *ngFor="let comment of comments"
+                        [comment]="comment">
+    </app-post-comments>
+  </div>
+</div>

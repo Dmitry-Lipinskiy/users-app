@@ -1,0 +1,10 @@
+.post-comment {
+  margin: 5px;
+  border: 2px solid grey;
+  border-radius: 10px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: lightblue;
+  }
+}

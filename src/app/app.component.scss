@@ -1,0 +1,35 @@
+.all-users-head, .user-info-head, .user-posts-head, .user-todos-head, .user-albums-head {
+  font-family: Script MT;
+  text-align: center;
+}
+
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-buttons {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .button-posts, .button-todos, .button-albums {
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+    background-color: MediumSeaGreen;
+    border: 2px solid grey;
+    border-radius: 7px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: darkred;
+      box-shadow: 0 0 5px 2px grey;
+    }
+  }
+}

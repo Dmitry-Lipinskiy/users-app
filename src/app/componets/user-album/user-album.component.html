@@ -1,0 +1,13 @@
+<div class="user-album">
+  <h3>{{album.title}}</h3>
+
+  <button class="album-button" (click)="getPhotos()">show/hide photos</button>
+
+  <div *ngIf="isShowPhotos">
+    <app-album-photos *ngFor="let photo of photos"
+                      [photo]="photo">
+    </app-album-photos>
+  </div>
+</div>
+
+

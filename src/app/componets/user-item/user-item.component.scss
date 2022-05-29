@@ -1,0 +1,19 @@
+.user-container {
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black;
+  background-color: steelblue;
+  border: 2px solid grey;
+  border-radius: 10px;
+
+  &:hover {
+    cursor: pointer;
+    color: steelblue;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px 2px grey;
+  }
+}
