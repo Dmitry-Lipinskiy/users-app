@@ -5,17 +5,23 @@
 
 .users-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .info-buttons {
   margin: 50px 0px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
 
   .button-posts, .button-todos, .button-albums {
     width: 300px;
+    margin: 5px;
     padding: 10px;
     font-size: 15px;
     text-align: center;
